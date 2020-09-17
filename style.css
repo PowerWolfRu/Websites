@@ -190,6 +190,7 @@ main .main_about
 {
     min-width: 100%;
 }
+
 .main_team
 {
     background: black;
@@ -206,8 +207,46 @@ main .main_about
 {
     width: 100px;
     height: 3px;
-    background: tomato;
+    background: #fcac45;
     position: relative;
-    left: 45.5%;
+    left: 46%;
+    margin-bottom: 105px;
+}   
+.photo
+{
+    background: grey;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.team_cards
+{
+    display: inline-block;
+}
+.name{
+    font-size: 20px;
+}
+.position
+{
+    font-size: 14px;
+}
+.card{
+    margin: 0 20px;
+}
+.social
+{
+    text-align: center;
+    font-size: 20px;
+    background: grey;
+    color: honeydew;
+    padding-bottom: 20px;
+}
+.phone
+{
+    color: honeydew;
+}
+.phone:hover{
+    border-bottom: 3px solid #fcac45;
 }
  
